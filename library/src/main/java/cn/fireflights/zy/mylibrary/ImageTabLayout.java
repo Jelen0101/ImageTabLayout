@@ -1,4 +1,4 @@
-package cn.fireflights.zy.imagetablayout;
+package cn.fireflights.zy.mylibrary;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -13,6 +13,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import cn.fireflights.zy.mylibrary.ImageRes;
+import cn.fireflights.zy.mylibrary.R;
 
 /**
  * Created by ZY on 2016/4/24.

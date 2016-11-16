@@ -8,14 +8,14 @@ import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.fireflights.zy.imagetablayout.ImageRes;
-import cn.fireflights.zy.imagetablayout.ImageTabLayout;
 import cn.fireflights.zy.imagetablayout.R;
 import cn.fireflights.zy.imagetablayout.sample.adapter.MyViewPagerAdapter;
 import cn.fireflights.zy.imagetablayout.sample.fragment.FirstFragment;
 import cn.fireflights.zy.imagetablayout.sample.fragment.FourthFragment;
 import cn.fireflights.zy.imagetablayout.sample.fragment.SecondFragment;
 import cn.fireflights.zy.imagetablayout.sample.fragment.ThirdFragment;
+import cn.fireflights.zy.mylibrary.ImageRes;
+import cn.fireflights.zy.mylibrary.ImageTabLayout;
 
 public class MainActivity extends AppCompatActivity {
     ViewPager viewPager;

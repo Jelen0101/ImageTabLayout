@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="cn.fireflights.zy.imagetablayout.sample.activity.MainActivity">
-    <cn.fireflights.zy.imagetablayout.ImageTabLayout
+    <cn.fireflights.zy.mylibrary.ImageTabLayout
         android:id="@+id/imageTabLayout"
         android:layout_alignParentBottom="true"
         android:background="#FFFFFF"
