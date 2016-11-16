@@ -1,7 +1,5 @@
-
 ![](screenshot.png)
-
-<font size=20>**# Usage**</font>
+# #Usage
 
 ####1.**Project Gradle:**
 ```
