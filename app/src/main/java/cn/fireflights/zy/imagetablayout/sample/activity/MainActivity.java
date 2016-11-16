@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         imageTabLayout = (ImageTabLayout) findViewById(R.id.imageTabLayout);
 
-        //初始化Fragment
+        //init Fragments
         FirstFragment firstFragment = new FirstFragment();
         SecondFragment secondFragment = new SecondFragment();
         ThirdFragment thirdFragment = new ThirdFragment();
@@ -43,13 +43,13 @@ public class MainActivity extends AppCompatActivity {
         MyViewPagerAdapter pagerAdapter = new MyViewPagerAdapter(getSupportFragmentManager(), fragments);
         viewPager.setAdapter(pagerAdapter);
 
-        //image和title，对应fragment
+        //image & title
         List<ImageRes> imageResList = new ArrayList<>();
         imageResList.add(new ImageRes("第一页", R.drawable.tab_selector));
         imageResList.add(new ImageRes("第二页", R.drawable.tab_selector));
         imageResList.add(new ImageRes("第三页", R.drawable.tab_selector));
         imageResList.add(new ImageRes("第四页", R.drawable.tab_selector));
-        //在ViewPager.setAdapter()后调用
+        //after ViewPager.setAdapter()
         imageTabLayout.setViewPager(viewPager, imageResList);
     }
 
